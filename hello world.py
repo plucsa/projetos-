@@ -14,8 +14,8 @@ def LeiaInt(msg):
         if ok :
             break
     return valor
+Nom = str(input('digite seu nome: '))
 while True:
-    Nom = str(input('digite seu nome: '))
     if all(c.isalpha() or c.isspace() for c in Nom) and len(Nom) > 3 and len(Nom) < 20 :
         break
     else:
