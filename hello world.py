@@ -16,10 +16,10 @@ def LeiaInt(msg):
     return valor
 while True:
     Nom = str(input('digite seu nome: '))
-    if all(c.isalpha() or c.isspace() for c in Nom):
+    if all(c.isalpha() or c.isspace() for c in Nom) and len(Nom) > 3 and len(Nom) < 20 :
         break
     else:
-        Nom = str(input('Seu nome deve conter entre 3 a 20 letras! Digite novamente: '))
+        Nom = str(input('Seu nome só deve conter letras, e ter entre 3 a 20 letras! Digite novamente: '))
 idade = LeiaInt('digite sua idade: ')
 while idade < 0 or idade > 120:
     idade = int(input('\033[0;31mErro, digite uma idade valida entre 0 e 120!:\033[m'))
