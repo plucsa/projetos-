@@ -1,18 +1,29 @@
-from contextlib import redirect_stderr
-from operator import truediv
+from unicodedata import numeric
 import webbrowser as wb
-
 print("hello world!")
+def LeiaInt(msg):
+    ok = False
+    valor = 0
+    while True:
+        idade = str(input(msg))  
+        if idade.isnumeric():
+            valor = int(idade)
+            ok = True
+        else:
+            print('\033[0;31mErro, digite uma idade valida entre 0 e 120!:\033[m')
+        if ok :
+            break
+    return valor
 Nom = str(input('digite seu nome: '))
-idade = int(input('digite sua idade: '))
+idade = LeiaInt('digite sua idade: ')
+while idade < 0 or idade > 120:
+    idade = int(input('\033[0;31mErro, digite uma idade valida entre 0 e 120!:\033[m'))
 def search():
     if idade >= 18:
         print('seja bem vindo ao meu primeiro programa em python no VScode {}'.format(Nom))
         while True:
-            search()
-            print('oque deseja buscar hoje: 1-YouTube, 2-Web Whatsapp, 3-Liga Magic, 4-Google search, 5-exit ')
-            x = int(input('>>>>>>>'))
-            #condições
+            x = int(input('oque deseja buscar hoje: 1-YouTube, 2-Web Whatsapp, 3-Liga Magic, 4-Google search, 5-exit:  '))
+                #condições
             if (x == 1):
                 wb.open('https://www.youtube.com')
             elif (x == 2) :
@@ -29,3 +40,4 @@ def search():
             print()
     else:
         print('infelizmente você não tem acesso nessa maquina devido a sua idade')
+search()
