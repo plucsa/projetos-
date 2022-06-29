@@ -8,6 +8,7 @@ def LeiaInt(msg):
         idade = str(input(msg))  
         if idade.isnumeric():
             valor = int(idade)
+        if valor >= 0 and valor < 120:
             ok = True
         else:
             print('\033[0;31mErro, digite uma idade valida entre 0 e 120!:\033[m')
@@ -15,14 +16,13 @@ def LeiaInt(msg):
             break
     return valor
 Nom = str(input('digite seu nome: '))
+N = Nom.strip()
 while True:
-    if all(c.isalpha() or c.isspace() for c in Nom) and len(Nom) > 3 and len(Nom) < 20 :
+    if all(c.isalpha() or c.isspace() for c in N) and len(N) > 3 and len(N) < 20 :
         break
     else:
         Nom = str(input('Seu nome só deve conter letras, e ter entre 3 a 20 letras! Digite novamente: '))
 idade = LeiaInt('digite sua idade: ')
-while idade < 0 or idade > 120:
-    idade = int(input('\033[0;31mErro, digite uma idade valida entre 0 e 120!:\033[m'))
 def search():
     if idade >= 18:
         print('seja bem vindo ao meu primeiro programa em python no VScode {}'.format(Nom))
