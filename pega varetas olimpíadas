@@ -1,0 +1,15 @@
+# projetos-
+while True:
+    N = int(input("Digite a quantidade de comprimentos de varetas: "))
+    if N == 0 :
+        break
+    elif N > 1000:
+        break
+    pares = 0  
+    rep = 0    
+    for rep in range(N): 
+        ci = int(input("Digite o comprimento: "))
+        vi = int(input("Digite a quantidade de varetas: "))
+        pares +=(vi//2)
+        rep += 1
+    print("Quantidade de retangulos  {}.".format(pares//2))
