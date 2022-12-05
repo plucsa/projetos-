@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T14:56:07.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0 (Edition std-1)" etag="DPuNyFGB_7PF05ydHvjU" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T15:00:14.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0 (Edition std-1)" etag="jtMcsVvEc3OyyxR5Fcg_" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1509" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
         <mxCell id="z1aMLA-Ru8C_hvvz4HN2-29" value="sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="560" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z1aMLA-Ru8C_hvvz4HN2-30" value="&lt;span style=&quot;font-family: &amp;quot;Open Sans Hebrew&amp;quot;, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Saldo insuficiente&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z1aMLA-Ru8C_hvvz4HN2-30" value="&lt;font color=&quot;#ffffff&quot;&gt;saldo insuficiente&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="335" y="630" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z1aMLA-Ru8C_hvvz4HN2-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="z1aMLA-Ru8C_hvvz4HN2-31" target="z1aMLA-Ru8C_hvvz4HN2-51">
@@ -180,6 +180,9 @@
         </mxCell>
         <mxCell id="z1aMLA-Ru8C_hvvz4HN2-64" value="fim" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="830" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="z1aMLA-Ru8C_hvvz4HN2-70" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="525" y="675" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
